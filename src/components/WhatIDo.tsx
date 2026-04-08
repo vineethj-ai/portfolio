@@ -93,7 +93,7 @@ const WhatIDo = () => {
                 Crafting high-impact visuals and enhancing digital experiences using strong fundamentals in lighting, composition, and AI tools.
               </p>
               <h5>Skillset & tools</h5>
-              <div className="what-content-flex">
+              <div className="what-content-flex" translate="no">
                 <div className="what-tags">Prompt Engineering</div>
                 <div className="what-tags">Image Retouching</div>
                 <div className="what-tags">Visual Consistency</div>
@@ -128,7 +128,7 @@ const WhatIDo = () => {
                 Creating high-quality fur, hair, and feather grooms for feature films. Extensive experience in character FX, simulations, and 3D workflows.
               </p>
               <h5>Skillset & tools</h5>
-              <div className="what-content-flex">
+              <div className="what-content-flex" translate="no">
                 <div className="what-tags">Houdini</div>
                 <div className="what-tags">Autodesk Maya</div>
                 <div className="what-tags">Nuke</div>
