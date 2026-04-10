@@ -65,7 +65,7 @@ const projects: Project[] = [
     description: "QACircle Branding & Visual Design",
     year: "2024",
     image: "/images/qacbanner.png?v=2",
-    link: "https://dribbble.com/shots/27268158-Visual-Storytelling-for-Chefcart?utm_source=Clipboard_Shot&utm_campaign=vineethj1998&utm_content=Visual%20Storytelling%20for%20Chefcart&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=vineethj1998&utm_content=Visual%20Storytelling%20for%20Chefcart&utm_medium=Social_Share",
+    link: "https://dribbble.com/shots/27268382-QACircle-Technology-Recruitment-Tech-Training?utm_source=Clipboard_Shot&utm_campaign=vineethj1998&utm_content=QACircle%20Technology%20%7C%20Recruitment%20%26%20Tech%20Training&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=vineethj1998&utm_content=QACircle%20Technology%20%7C%20Recruitment%20%26%20Tech%20Training&utm_medium=Social_Share",
   },
   {
     title: "IMDB Vineeth Jawalkar",
