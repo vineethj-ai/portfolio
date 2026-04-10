@@ -52,16 +52,20 @@ const projects: Project[] = [
     year: "2023",
   },
   {
-    title: "Motion Graphics Reel",
-    tags: ["VFX", "Graphic"],
-    description: "Commercial motion & kinetic typography reel for brand campaigns",
-    year: "2023",
+    title: "Chefcart Branding",
+    tags: ["Web Design", "Graphic"],
+    description: "Visual Storytelling for Chefcart",
+    year: "2024",
+    image: "/images/ccbanner.png?v=2",
+    link: "https://dribbble.com/shots/27268158-Visual-Storytelling-for-Chefcart?utm_source=Clipboard_Shot&utm_campaign=vineethj1998&utm_content=Visual%20Storytelling%20for%20Chefcart&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=vineethj1998&utm_content=Visual%20Storytelling%20for%20Chefcart&utm_medium=Social_Share",
   },
   {
-    title: "E-Commerce Redesign",
-    tags: ["Web Design", "UIUX"],
-    description: "Full UX audit, wireframing and visual redesign of a fashion platform",
+    title: "QACircle Branding",
+    tags: ["Web Design", "Graphic"],
+    description: "QACircle Branding & Visual Design",
     year: "2024",
+    image: "/images/qacbanner.png?v=2",
+    link: "https://dribbble.com/shots/27268158-Visual-Storytelling-for-Chefcart?utm_source=Clipboard_Shot&utm_campaign=vineethj1998&utm_content=Visual%20Storytelling%20for%20Chefcart&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=vineethj1998&utm_content=Visual%20Storytelling%20for%20Chefcart&utm_medium=Social_Share",
   },
   {
     title: "IMDB Vineeth Jawalkar",
@@ -185,11 +189,18 @@ const Work = () => {
                 {/* Thumbnail */}
                 <div
                   className="work-card-thumb"
-                  style={{
-                    background: project.image
-                      ? `url(${project.image}) center/cover no-repeat`
-                      : cardGradients[originalIndex % cardGradients.length],
-                  }}
+                  style={
+                    project.image
+                      ? {
+                          backgroundImage: `url('${project.image}')`,
+                          backgroundPosition: "center",
+                          backgroundSize: "cover",
+                          backgroundRepeat: "no-repeat",
+                        }
+                      : {
+                          background: cardGradients[originalIndex % cardGradients.length],
+                        }
+                  }
                 >
                   {/* Show placeholder icon only if no custom image */}
                   {!project.image && (
