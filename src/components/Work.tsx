@@ -20,18 +20,25 @@ const projects: Project[] = [
     tags: ["VFX"],
     description: "Grooming Artist — Digital Character Appearance Refinement at MPC Film",
     year: "2022",
+    image: "/images/sonic.jpg",
+    link: "https://youtu.be/sQuoffM1y-w?si=19rlbtc3w2GmV9FE",
   },
   {
     title: "House of the Dragon",
     tags: ["VFX"],
     description: "Grooming Artist — Creature & Character Hair Grooms at MPC Film",
     year: "2022",
+    image: "/images/hotd.jpg",
+    link: "https://youtu.be/YN2H_sKcmGw?si=ZNcvL5F2vrTMGotj",
   },
   {
     title: "Mufasa: The Lion King",
     tags: ["VFX"],
     description: "Grooming Artist — Photorealistic Fur & Feathers at MPC Film",
     year: "2024",
+    image: "/images/lion_king.jpg",
+    link: "https://youtu.be/o17MF9vnabg?si=gRc1Cs1x4EkFh52A",
+
   },
   {
     title: "Brand Identity System",
@@ -46,10 +53,12 @@ const projects: Project[] = [
     year: "2024",
   },
   {
-    title: "Dashboard UI Kit",
-    tags: ["UIUX", "Web Design"],
-    description: "Analytics dashboard design system with 60+ reusable components",
-    year: "2023",
+    title: "Arizon Systems",
+    tags: ["Web Design"],
+    description: "website highlighting Arizon Systems’ AI-driven solutions.",
+    year: "2026",
+    image: "/images/thumbnail.png",
+    link: "https://www.arizonsystems.com/",
   },
   {
     title: "Chefcart Branding",
@@ -192,14 +201,14 @@ const Work = () => {
                   style={
                     project.image
                       ? {
-                          backgroundImage: `url('${project.image}')`,
-                          backgroundPosition: "center",
-                          backgroundSize: "cover",
-                          backgroundRepeat: "no-repeat",
-                        }
+                        backgroundImage: `url('${project.image}')`,
+                        backgroundPosition: "center",
+                        backgroundSize: "cover",
+                        backgroundRepeat: "no-repeat",
+                      }
                       : {
-                          background: cardGradients[originalIndex % cardGradients.length],
-                        }
+                        background: cardGradients[originalIndex % cardGradients.length],
+                      }
                   }
                 >
                   {/* Show placeholder icon only if no custom image */}
